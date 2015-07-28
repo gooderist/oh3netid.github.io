@@ -46,8 +46,8 @@ var $ = jQuery.noConflict();
    var $bestman = $('.bestman span').hide();
    var $footernames = $('.footer_names').hide();
   
-   $titlefront.show().arctext({radius: 250});
-   $titleunder.show().arctext({radius: 180, dir: -1});
+   $titlefront.show().arctext({radius: 250, dir: 1, animation: 300});
+   $titleunder.show().arctext({radius: 180, dir: -1, animation: 300});
    $bestman.show().arctext({radius: 80});
    $footernames.show().arctext({radius: 120, dir: -1});
 
