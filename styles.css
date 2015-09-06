@@ -12,15 +12,11 @@ body::before {
   position: fixed;
 }
 
-#footer {
-  display: flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  flex-direction: column;
+a {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-#center {
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: 10px;
+#nav {
+  margin-top: 20px;
 }
