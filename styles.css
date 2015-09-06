@@ -20,3 +20,6 @@ a {
 #nav {
   margin-top: 20px;
 }
+
+@media only screen and (max-width:480px) { 
+  a {font-size: 4.25em;}
