@@ -1,0 +1,27 @@
+body::before {
+  background-image: url('married.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  content: '';
+  will-change: transform;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: fixed;
+}
+
+#footer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#center {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom: 55px;
+}
