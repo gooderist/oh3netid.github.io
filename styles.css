@@ -16,13 +16,11 @@ body::before {
   display: flex;
   display: -webkit-flex;
   display: -ms-flex;
-  min-height: 100vh;
   flex-direction: column;
 }
 
 #center {
   margin-left:auto;
   margin-right:auto;
-  margin-top:auto;
-  margin-bottom: 55px;
+  margin-top: 10px;
 }
