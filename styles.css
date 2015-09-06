@@ -15,6 +15,8 @@ body::before {
 
 #footer {
   display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
   min-height: 100vh;
   flex-direction: column;
 }
